@@ -4,12 +4,12 @@ services:
 
   movieplex7:
     build: movieplex7
-    image: movieplex7-tomee
+    image: dtrpieterd-ee3.westeurope.cloudapp.azure.com/dev/movieplex7-server
     ports:
       - "8080:8080"
   
   react-client:
     build: react-client
-    image: react-client
+    image: dtrpieterd-ee3.westeurope.cloudapp.azure.com/dev/movieplex7-client
     ports:
       - "80:80"
