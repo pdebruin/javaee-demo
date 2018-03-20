@@ -1,0 +1,15 @@
+version: '3.3'
+
+services: 
+
+  movieplex7:
+    build: movieplex7
+    image: dtrpieterd-ee3.westeurope.cloudapp.azure.com/dev/movieplex7-server
+    ports:
+      - "8080:8080"
+  
+  react-client:
+    build: react-client-v2
+    image: dtrpieterd-ee3.westeurope.cloudapp.azure.com/dev/movieplex7-client
+    ports:
+      - "80:80"
