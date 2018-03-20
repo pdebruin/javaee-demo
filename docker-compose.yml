@@ -4,7 +4,6 @@ services:
 
   movieplex7:
     build: movieplex7
-#    image: dtrpieterd-ee3.westeurope.cloudapp.azure.com/dev/movieplex7-server
     image: 52.232.26.254/dev/movieplex7-server
     ports:
       - "8080:8080"
