@@ -3,7 +3,6 @@ Setting context: From 3*4VMs -> 6VMs+EE
 add workloads
 
 in dev add logos
-commit
 auto deploy
 scans
 promote 
