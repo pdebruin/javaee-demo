@@ -44,11 +44,10 @@ header {
   top: 15%;
   left: 35%;
   transform: translate(-50%, -50%);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 8em;
   font-weight: 700;
-  font-style: italic;
-  color: #9408C4;
+  color: #0065D3;
 }
 
 header .group {
