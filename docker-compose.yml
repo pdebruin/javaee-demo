@@ -4,12 +4,12 @@ services:
 
   movieplex7:
     build: movieplex7
-    image: 52.232.26.254/dev/movieplex7-server
+    image: 52.232.26.254/dev/movieplex7-server:1.0
     ports:
-      - "8080:8080"
+      - "8080:8081"
   
   react-client:
     build: react-client
-    image: 52.232.26.254/dev/movieplex7-client
+    image: 52.232.26.254/dev/movieplex7-client:2.0
     ports:
-      - "80:80"
+      - "80:81"
