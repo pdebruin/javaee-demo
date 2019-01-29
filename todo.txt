@@ -1,3 +1,5 @@
+Philips demo
+
 Setting context: From 3*4VMs -> 6VMs+EE
 
 add workloads
@@ -11,3 +13,4 @@ scale
 kill node
 
 dev test qa prod
+
