@@ -12,4 +12,4 @@ services:
     build: react-client
     image: dev/movieplex7-client:1.0
     ports:
-      - "80:80"
+      - "88:88"
