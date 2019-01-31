@@ -1,0 +1,15 @@
+version: '3.3'
+
+services: 
+
+  movieplex7:
+    build: movieplex7
+    image: dtr.dckr.it/dev/movieplex7-server:1.0
+    ports:
+      - "8080:8080"
+  
+  react-client:
+    build: react-client
+    image: dtr.dckr.it/dev/movieplex7-client:1.0
+    ports:
+      - "88:88"
